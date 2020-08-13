@@ -166,7 +166,7 @@ end
         
 def player_stats(player_name)
   game_hash.each do |home_away, team_data|
-    team_data[:players].each do |x, y|
+    team_data[:players].each do |player|
       binding.pry
     end
   end
