@@ -158,7 +158,7 @@ def player_numbers(team_name)
      if team_data[:team_name] == team_name
        team_data[:players].map do |player|
      
-       new_array << player[:number]
+        player[:number]
       
       end
     end
