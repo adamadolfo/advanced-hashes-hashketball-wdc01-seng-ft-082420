@@ -176,6 +176,7 @@ end
 def big_shoe_rebounds 
    game_hash.map do |home_away, team_data|
      team_data[:players].each do |stats|
-        return stats[:shoe] if stats[:player_name] == player
+      if stats[:player_name] == player
+        
 end
   
